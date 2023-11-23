@@ -1,5 +1,5 @@
 # MazMon
-2023.11 web3 Global Hackathon に提出したプロジェクト
+2023.11 web3 Global Hackathon に提出したプロジェクト<br>
 https://app.akindo.io/hackathons/aA8Ek0mDGS8kdZoMe
 
 スマートフォンアプリの操作により、ドライブの軌跡のGPS情報と部品画像をNFT化する。<br>
@@ -23,11 +23,15 @@ https://app.akindo.io/communities/27mmW8jKji236A0l/products/o677vWdgqUAAdLXK
 ### mintNFT
 - NFTを作成する部分
 - アプリからのHTTP通信（POST)で呼ばれる。
+- NFTのコントラクトはRemixでテストネットgoerliに生成
+  （NFTのコントラクト）
+  https://goerli.etherscan.io/token/0xa57193A15552FB27eD1e66C68A380EeA603b313c
 
-【呼び出し方法（POST)】
-- エンドポイントURL<br>
-https://immense-scrubland-90113-e49c94292646.herokuapp.com/
 <br>
+【呼び出し方法（POST)】
+
+- エンドポイントURL<br>
+  https://immense-scrubland-90113-e49c94292646.herokuapp.com/
 
 - JSONファイル
 ```
@@ -43,7 +47,7 @@ NFTが作成されるとこちらで確認できます。<br>
 https://testnets.opensea.io/collection/autoparts
 <br><br>
 
-以下のcURL文で試すことができます。
+以下のcURL文で試すことができます。<br>
 external_urlは、実際のGPSのトラッキングデータです。
 
 ```
