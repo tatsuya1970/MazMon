@@ -1,4 +1,12 @@
 # MazMon
+2023.11 web3 Global Hackathon に提出したプロジェクト
+https://app.akindo.io/hackathons/aA8Ek0mDGS8kdZoMe
+
+スマートフォンアプリの操作により、ドライブの軌跡のGPS情報と部品画像をNFT化する。<br>
+詳細はこちら<br>
+https://app.akindo.io/communities/27mmW8jKji236A0l/products/o677vWdgqUAAdLXK
+
+<br>
 
 ## フォルダ構成
 ├ app/  <br>
