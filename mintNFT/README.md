@@ -1,5 +1,9 @@
 HTTP通信（POST)で呼ばれ、NFTをテストネットに生成する。
 
+なお、NFTのコントラクトはRemixでテストネットgoerliに生成済み<br>
+NFTのコントラクトは詳細はこちら https://goerli.etherscan.io/token/0xa57193A15552FB27eD1e66C68A380EeA603b313c
+
+
 【呼び出し方法（POST)】
 
 - エンドポイントURL<br>
