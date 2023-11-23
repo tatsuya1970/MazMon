@@ -40,7 +40,7 @@ https://immense-scrubland-90113-e49c94292646.herokuapp.com/
 ```
 <br>
 NFTが作成されるとこちらで確認できます。<br>
-https://testnets.opensea.io/collection/tatsuya
+https://testnets.opensea.io/collection/autoparts
 <br><br>
 
 以下のcURL文で試すことができます。
