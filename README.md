@@ -25,8 +25,8 @@ https://app.akindo.io/communities/27mmW8jKji236A0l/products/o677vWdgqUAAdLXK
 ### mintNFT
 - NFTを作成する部分
 - アプリからのHTTP通信（POST)で呼ばれる。
-- NFTのコントラクトはRemixでテストネットgoerliに生成
-  （NFTのコントラクト）
+- NFTのコントラクトはRemixでテストネットgoerliに生成済み<br>
+  （NFTのコントラクトは詳細はこちら）
   https://goerli.etherscan.io/token/0xa57193A15552FB27eD1e66C68A380EeA603b313c
 
 <br>
