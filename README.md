@@ -43,6 +43,22 @@ NFTが作成されるとこちらで確認できます。<br>
 https://testnets.opensea.io/collection/tatsuya
 <br><br>
 
+以下のcURL文で試すことができます。
+external_urlは、実際のGPSのトラッキングデータです。
+
+```
+curl -X POST https://immense-scrubland-90113-e49c94292646.herokuapp.com/ \
+-H "Content-Type: application/json" \
+-d '{
+  "description": "something",
+  "external_url": "https://mazmon.s3.ap-northeast-1.amazonaws.com/11111_20231106094032.csv",
+  "image": "画像のURL",
+  "name": "something"
+}'
+
+```
+
+
 ### trackingDrivingData
 - ドライブデータをトラッキングする部分
 - アプリからのHTTP通信で作動する。
