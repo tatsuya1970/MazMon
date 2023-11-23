@@ -14,7 +14,9 @@ https://app.akindo.io/communities/27mmW8jKji236A0l/products/o677vWdgqUAAdLXK
 ├ trackingDrivingData/ <br>
 ├ saveDrivingData/ <br>
 
+　<br>
 ## 各プロジェクトの説明
+詳細は各プロジェクトのREADME.mdに記載
 
 ### app
 - スマートフォンアプリ部分
