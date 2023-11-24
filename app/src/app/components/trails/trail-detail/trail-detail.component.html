@@ -1,0 +1,34 @@
+<mat-toolbar color="primary">
+  <a mat-icon-button routerLink="/trails">
+    <mat-icon>arrow_back</mat-icon>
+  </a>
+  <span>{{ trail.name }}</span>
+  <span class="grow"></span>
+  <button mat-icon-button>
+    <mat-icon>edit</mat-icon>
+  </button>
+</mat-toolbar>
+@if (loading){
+<mat-progress-bar mode="buffer"></mat-progress-bar>
+}
+
+<main>
+  <img
+    src="https://maps.googleapis.com/maps/api/staticmap?center=34.3918122,132.4832933&zoom=13&size=400x300&maptype=roadmap&key=AIzaSyDHN7_-ERRq7cGsVtPn9BwEo1jgSle-UH8&signature=gho5uVoP5-5WKgXTAPpvjHdBbcE="
+    alt=""
+  />
+
+  <button mat-raised-button>
+    <mat-icon>sell</mat-icon>
+    View / trade on OpenSea
+  </button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="convert()"
+    [disabled]="loading"
+  >
+    <mat-icon>settings_suggest</mat-icon>
+    Get a component
+  </button>
+</main>

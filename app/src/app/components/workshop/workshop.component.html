@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>Workshop</span>
+</mat-toolbar>
+
+<main>
+  <mat-grid-list cols="3">
+    @for (id of ids; track id) {
+    <mat-grid-tile>
+      <img [src]="icon(id)" alt="" />
+    </mat-grid-tile>
+    }
+  </mat-grid-list>
+</main>

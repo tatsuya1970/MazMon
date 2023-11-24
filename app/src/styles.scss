@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Optima Nova", sans-serif;
+  --mat-toolbar-title-text-font: "Optima Nova", sans-serif;
+  --mdc-typography-font-family: "Optima Nova", sans-serif;
+  --mdc-list-list-item-label-text-font: "Optima Nova", sans-serif;
+  --mdc-list-list-item-supporting-text-font: "Optima Nova", sans-serif;
+  --mdc-snackbar-supporting-text-font: "Optima Nova", sans-serif;
+  --mdc-dialog-supporting-text-font: "Optima Nova", sans-serif;
+  --mdc-dialog-subhead-font: "Optima Nova", sans-serif;
+}
+
+@font-face {
+  font-family: "Optima Nova";
+  src: url("assets/m.otf") format("opentype");
+}

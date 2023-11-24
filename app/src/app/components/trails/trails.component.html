@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <span>Trails</span>
+</mat-toolbar>
+
+<mat-nav-list>
+  @for (trail of trails; track trail.id) {
+    <a mat-list-item [routerLink]="['/trails', trail.id]">
+      <mat-icon matListItemIcon>route</mat-icon>
+      <h3 matListItemTitle>{{ trail.name }}</h3>
+      <span matListItemLine>{{ trail.date | date: 'yyyy/MM/dd' }}・{{ trail.distance }}km</span>
+    </a>
+    <mat-divider></mat-divider>
+  }
+</mat-nav-list>
+
+<button mat-fab color="primary">
+  <mat-icon>sell</mat-icon>
+</button>

@@ -1,0 +1,35 @@
+mat-progress-bar {
+  position: absolute;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+p {
+  background-image: url("https://www.mazda.co.jp/globalassets/assets/cars/cx-30/grade/xd-proactive/211028_cx-30_grade_recom_img01_sp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(1rem);
+  width: 80vw;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.4rem;
+  text-align: center;
+
+  span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 2rem;
+    background: linear-gradient(
+      transparent,
+      rgba(var(--mat-toolbar-container-background-color), 0.8)
+    );
+  }
+}

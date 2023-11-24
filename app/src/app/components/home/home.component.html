@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+  <span>MazMon!</span>
+</mat-toolbar>
+
+@if (loading) {
+<mat-progress-bar mode="buffer" color="accent"></mat-progress-bar>
+}
+
+<main>
+  <p>
+    <span> Connected to your CX-30 </span>
+  </p>
+
+  <button mat-raised-button><mat-icon>link</mat-icon> Connect</button>
+  @if (driving){
+  <button
+    mat-raised-button
+    color="warn"
+    (click)="stopDriving()"
+    [disabled]="loading"
+  >
+    <mat-icon>stop</mat-icon>
+    Finish driving
+  </button>
+
+  <pre>{{ duration | date : "HH:mm" : "+0000" }}</pre>
+  } @else {
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="startDriving()"
+    [disabled]="loading"
+  >
+    <mat-icon>fiber_smart_record</mat-icon>
+    Start driving
+  </button>
+  }
+</main>
