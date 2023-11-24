@@ -11,8 +11,9 @@ https://app.akindo.io/communities/27mmW8jKji236A0l/products/o677vWdgqUAAdLXK
 ## フォルダ構成
 ├ app/  <br>
 ├ mintNFT/  <br>
-├ trackingDrivingData/ <br>
 ├ saveDrivingData/ <br>
+├ trackingDrivingData/ <br>
+
 
 　<br>
 ## 各プロジェクトの説明
