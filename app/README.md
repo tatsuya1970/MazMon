@@ -1,5 +1,7 @@
 # TrailCollection
 
+MazMon! フロントエンドの web アプリです。各コンポーネントへリクエストして経路の記録・部品化を行います。
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
 ## Development server
